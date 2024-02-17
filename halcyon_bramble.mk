@@ -4,9 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Lineage stuff.
+# Inherit some common Halcyon stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/halcyon/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/bramble/aosp_bramble.mk)
