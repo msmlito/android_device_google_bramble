@@ -8,6 +8,9 @@
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/rising/config/rising.mk)
 
+# GMS
+WITH_GMS := true
+
 # Inherit device configuration
 $(call inherit-product, device/google/bramble/aosp_bramble.mk)
 $(call inherit-product, device/google/redbull/lineage_common.mk)
