@@ -5,6 +5,8 @@
 #
 
 # Inherit some common RisingOS stuff.
+RISING_MAINTAINER := neroices
+RISING_CHIPSET := msmlito
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/rising/config/rising.mk)
 
